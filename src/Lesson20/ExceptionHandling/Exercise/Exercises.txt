@@ -1,0 +1,27 @@
+Miniøvelser: BankAccount med Exceptions**
+
+Opgave 1 – Udvid fejlscenarier
+
+Tilføj endnu en fejlmulighed i `withdraw()`:
+Hvis beløbet er **over 10.000 kr.**, skal du kaste en ny exception, fx `SuspiciousTransactionException`.
+
+Refleksionsspørgsmål:
+Hvorfor kunne det være nyttigt at reagere på mistænkelige beløb i et banksystem?
+
+Opgave 2 – Tilføj logning
+
+Opret en ny klasse `ErrorLogger` med én metode:
+
+```java
+public static void log(Exception e)
+```
+
+Metoden skal udskrive fejlens type og tidspunkt på konsollen.
+Kald den fra dine `catch`-blokke.
+
+Refleksionsspørgsmål:
+Hvorfor kan det være en god idé at samle logik i en separat klasse?
+
+
+
+

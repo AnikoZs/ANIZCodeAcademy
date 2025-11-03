@@ -1,0 +1,38 @@
+🧪 Percy Jackson Unit Test Øvelser
+1️⃣ assertEquals – tjek hytte for gudeforælder
+
+Beskrivelse:
+Opret en Demigod med navnet “Thalia” og gudeforælder “Zeus”.
+Skriv en test, der tjekker, hvilken hytte Thalia hører til.
+
+Forventet resultat: "Cabin 1"
+
+Assert-metode: assertEquals
+
+2️⃣ assertFalse – alder < 12 → ikke eligible
+
+Beskrivelse:
+Opret en Demigod med navnet “Silena” og alder 8.
+Skriv en test, der tjekker, at Silena ikke er berettiget til en quest.
+
+Betingelse: Alder < 12
+
+Assert-metode: assertFalse
+
+3️⃣ assertThrows – forvent fejl
+
+    Beskrivelse:
+    Prøv at oprette en Demigod med tomt navn: "".
+    Skriv en test, der tjekker, at constructoren kaster en IllegalArgumentException.
+
+    Assert-metode: assertThrows
+
+4️⃣ assertEquals – tjek hytte for Athena
+
+Beskrivelse:
+Opret en Demigod med navnet “Annabeth” og gudeforælder “Athena”.
+Skriv en test, der tjekker, hvilken hytte Annabeth tilhører.
+
+Forventet resultat: "Cabin 6"
+
+Assert-metode: assertEquals
