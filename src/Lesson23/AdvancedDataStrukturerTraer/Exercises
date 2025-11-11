@@ -1,0 +1,4 @@
+✅ 1. Tæl kun børn (ekskl. personen selv)
+Du skal ændre countDescendants() så den ikke tæller personen selv.
+✅ 2. Tæl kun personer af et bestemt køn (f.eks. kvinder)
+Tilføj en metode som tager et køn som parameter og tæller kun personer med det køn.

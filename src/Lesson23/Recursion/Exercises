@@ -1,0 +1,7 @@
+🧠 Forståelse af rekursion:
+
+1.Hvad er forskellen på en rekursiv og en iterativ løsning?
+2.Hvorfor er det vigtigt at have en base case i en rekursiv funktion?
+3.Hvad sker der, hvis base case mangler eller er forkert?
+4.Hvordan kan vi visualisere de rekursive kald – fx med en kaldestak?
+5.Hvor mange gange bliver fibonacci(2) kaldt, når vi beregner fibonacci(5)?
